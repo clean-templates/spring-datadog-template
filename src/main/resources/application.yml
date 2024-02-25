@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: datadog-tracing
+
+management:
+  datadog:
+    metrics:
+      export:
+        api-key: API_KEY
+        uri: https://us5.datadoghq.com
+        application-key: APPLICATION_KEY
