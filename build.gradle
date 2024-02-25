@@ -16,6 +16,7 @@ repositories {
 }
 
 dependencies {
+    implementation 'org.springframework:spring-aspects'
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     runtimeOnly 'io.micrometer:micrometer-registry-datadog'
